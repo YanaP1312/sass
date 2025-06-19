@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vite-sass-app-template/",
+    "build": "vite build --base=/sass-practise/",
     "preview": "vite preview",
     "watch": "npx vite build --watch"
   },
@@ -23,5 +23,8 @@
     "svgo": "^3.0.2",
     "vite": "^4.4.5",
     "vite-plugin-image-optimizer": "^1.1.7"
+  },
+  "dependencies": {
+    "body-scroll-lock": "^4.0.0-beta.0"
   }
 }
