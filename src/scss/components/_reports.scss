@@ -1,0 +1,35 @@
+@use "../utils/placeholders";
+@use "../utils/variables" as var;
+@use "../utils/functions" as fn;
+@use "../utils/mixins" as mx;
+
+.reports {
+  grid-area: reports;
+}
+
+.reports-title {
+}
+.reports-list {
+}
+.reports-item {
+}
+.reports-co-worker {
+}
+.co-worker {
+}
+.co-worker-thumb {
+}
+.co-worker-avatar {
+}
+.co-worker-caption {
+}
+.reports-bar {
+}
+.reports-status {
+}
+.up {
+}
+.dash {
+}
+.down {
+}
