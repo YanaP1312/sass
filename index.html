@@ -75,7 +75,7 @@
                 <use href="/sass-practise/assets/sprite.svg#menu-envelope" />
               </svg>
               Mesage
-              <span class="menu-notification notification">8</span>
+              <span class="menu-notification notification is-notify">8</span>
             </a>
           </li>
           <li class="menu-item">
@@ -118,7 +118,7 @@
           class="search-input"
           type="search"
           name="user_search"
-          placeholder="Search Something..."
+          placeholder="Search something..."
           aria-label="Search for any term"
         />
       </label>
@@ -140,11 +140,11 @@
           <span class="page-title-accent">Hi Alex,</span>
           Welcome into Cat CRM Dashboard
         </h1>
-        <button class="welcome-btn" type="button">
-          <svg class="welcome-btn-icon" width="16" height="16">
+        <button class="welcome-btn btn btn--primary" type="button">
+          <svg class="btn-icon" width="16" height="16">
             <use href="/sass-practise/assets/sprite.svg#icon-plus" />
           </svg>
-          Primary normal
+          <span class="btn-inner">Primary normal</span>
         </button>
       </section>
 
@@ -727,7 +727,9 @@
             </div>
           </li>
         </ul>
-        <button class="show-more-btn" type="button">Show more</button>
+        <button class="show-more-btn btn btn--secondary" type="button">
+          <span class="btn-inner">Show more</span>
+        </button>
       </section>
 
       <section class="tasks">
@@ -857,17 +859,17 @@
         <h2 class="reports-title"><span>Task Report</span> | Last 2 Weeks</h2>
         <ul class="reports-list">
           <li class="reports-item" data-status="up">
-            <div class="reports-co-worker co-worker">
-              <div class="co-worker-thumb">
+            <div class="reports-staff staff">
+              <div class="staff-thumb">
                 <img
-                  class="co-worker-avatar"
+                  class="staff-avatar"
                   src="/sass-practise/assets/base.svg"
                   alt="Ibnu Mas’ud"
                   width="32"
                   height="32"
                 />
               </div>
-              <h3 class="co-worker-caption">Ibnu Mas’ud</h3>
+              <h3 class="staff-caption">Ibnu Mas’ud</h3>
             </div>
             <progress
               class="reports-bar"
@@ -875,24 +877,24 @@
               max="100"
               value="89"
             ></progress>
-            <svg class="reports-status" width="20" height="20">
+            <svg class="reports-icon" width="20" height="20">
               <use class="up" href="/sass-practise/assets/sprite.svg#icon-up"></use>
               <use class="dash" href="/sass-practise/assets/sprite.svg#icon-dash"></use>
               <use class="down" href="/sass-practise/assets/sprite.svg#icon-down"></use>
             </svg>
           </li>
           <li class="reports-item" data-status="dash">
-            <div class="reports-co-worker co-worker">
-              <div class="co-worker-thumb">
+            <div class="reports-staff staff">
+              <div class="staff-thumb">
                 <img
-                  class="co-worker-avatar"
+                  class="staff-avatar"
                   src="/sass-practise/assets/base.svg"
                   alt="Kelen Indah"
                   width="32"
                   height="32"
                 />
               </div>
-              <h3 class="co-worker-caption">Kelen Indah</h3>
+              <h3 class="staff-caption">Kelen Indah</h3>
             </div>
             <progress
               class="reports-bar"
@@ -900,24 +902,24 @@
               max="100"
               value="43"
             ></progress>
-            <svg class="reports-status" width="20" height="20">
+            <svg class="reports-icon" width="20" height="20">
               <use class="up" href="/sass-practise/assets/sprite.svg#icon-up" />
               <use class="dash" href="/sass-practise/assets/sprite.svg#icon-dash" />
               <use class="down" href="/sass-practise/assets/sprite.svg#icon-down" />
             </svg>
           </li>
           <li class="reports-item" data-status="up">
-            <div class="reports-co-worker co-worker">
-              <div class="co-worker-thumb">
+            <div class="reports-staff staff">
+              <div class="staff-thumb">
                 <img
-                  class="co-worker-avatar"
+                  class="staff-avatar"
                   src="/sass-practise/assets/base.svg"
                   alt="Mas Indro"
                   width="32"
                   height="32"
                 />
               </div>
-              <h3 class="co-worker-caption">Mas Indro</h3>
+              <h3 class="staff-caption">Mas Indro</h3>
             </div>
             <progress
               class="reports-bar"
@@ -925,24 +927,24 @@
               max="100"
               value="56"
             ></progress>
-            <svg class="reports-status" width="20" height="20">
+            <svg class="reports-icon" width="20" height="20">
               <use class="up" href="/sass-practise/assets/sprite.svg#icon-up" />
               <use class="dash" href="/sass-practise/assets/sprite.svg#icon-dash" />
               <use class="down" href="/sass-practise/assets/sprite.svg#icon-down" />
             </svg>
           </li>
           <li class="reports-item" data-status="dash">
-            <div class="reports-co-worker co-worker">
-              <div class="co-worker-thumb">
+            <div class="reports-staff staff">
+              <div class="staff-thumb">
                 <img
-                  class="co-worker-avatar"
+                  class="staff-avatar"
                   src="/sass-practise/assets/base.svg"
                   alt="Geo Vanni"
                   width="32"
                   height="32"
                 />
               </div>
-              <h3 class="co-worker-caption">Geo Vanni</h3>
+              <h3 class="staff-caption">Geo Vanni</h3>
             </div>
             <progress
               class="reports-bar"
@@ -950,24 +952,24 @@
               max="100"
               value="63"
             ></progress>
-            <svg class="reports-status" width="20" height="20">
+            <svg class="reports-icon" width="20" height="20">
               <use class="up" href="/sass-practise/assets/sprite.svg#icon-up" />
               <use class="dash" href="/sass-practise/assets/sprite.svg#icon-dash" />
               <use class="down" href="/sass-practise/assets/sprite.svg#icon-down" />
             </svg>
           </li>
           <li class="reports-item" data-status="down">
-            <div class="reports-co-worker co-worker">
-              <div class="co-worker-thumb">
+            <div class="reports-staff staff">
+              <div class="staff-thumb">
                 <img
-                  class="co-worker-avatar"
+                  class="staff-avatar"
                   src="/sass-practise/assets/base.svg"
                   alt="Avian Rizk"
                   width="32"
                   height="32"
                 />
               </div>
-              <h3 class="co-worker-caption">Avian Rizk</h3>
+              <h3 class="staff-caption">Avian Rizk</h3>
             </div>
             <progress
               class="reports-bar"
@@ -975,7 +977,7 @@
               max="100"
               value="63"
             ></progress>
-            <svg class="reports-status" width="20" height="20">
+            <svg class="reports-icon" width="20" height="20">
               <use class="up" href="/sass-practise/assets/sprite.svg#icon-up" />
               <use class="dash" href="/sass-practise/assets/sprite.svg#icon-dash" />
               <use class="down" href="/sass-practise/assets/sprite.svg#icon-down" />
