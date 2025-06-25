@@ -29,4 +29,11 @@ $btn-types: (
 @import "btn-base";
 
 //Button variants
-// @import "types/";
+@import "types/primary";
+@import "types/danger";
+@import "types/default";
+@import "types/frame";
+@import "types/info";
+@import "types/secondary";
+@import "types/success";
+@import "types/warning";
