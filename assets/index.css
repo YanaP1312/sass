@@ -200,7 +200,7 @@ body {
   letter-spacing: 0.04em;
 }
 
-.co-workers-table thead th, .co-workers-position, .co-workers-accept {
+.badge-danger, .badge-warning, .badge-success, .co-workers-table thead th, .co-workers-position, .co-workers-accept {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -1274,6 +1274,34 @@ summary {
 .notification-btn[data-notify=true]::after {
   background-color: #fc5a5a;
 }
+
+.badge-danger {
+  min-width: 96px;
+  padding: 4px 8px;
+  text-align: center;
+  color: #fafafb;
+  border-radius: 20px;
+  background-color: #fc5a5a;
+}
+
+.badge-warning {
+  min-width: 96px;
+  padding: 4px 8px;
+  text-align: center;
+  color: #fafafb;
+  border-radius: 20px;
+  background-color: #a461d8;
+}
+
+.badge-success {
+  min-width: 96px;
+  padding: 4px 8px;
+  text-align: center;
+  color: #fafafb;
+  border-radius: 20px;
+  background-color: #82c43c;
+}
+
 @media only screen and (min-width: 768px) {
   .main {
     gap: 36px;
@@ -1288,6 +1316,7 @@ summary {
     gap: 32px;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   .reports, .tasks, .board-item {
     padding: 24px;
@@ -1333,6 +1362,7 @@ summary {
     margin-right: auto;
   }
 }
+
 @media only screen and (min-width: 1440px) {
   .board-item {
     background-color: #1c1c24;
@@ -1361,6 +1391,7 @@ summary {
     background-color: #292932;
   }
 }
+
 @media only screen and (max-width: 1199.98px) {
   .sidebar {
     position: fixed;
@@ -1425,11 +1456,13 @@ summary {
             transition-delay: 400ms;
   }
 }
+
 @media only screen and (max-width: 767.98px) {
   .co-workers-table {
     display: none;
   }
 }
+
 @media (hover: hover) {
   .btn--primary:hover, .btn--primary:focus {
     background-color: #f15c27;
